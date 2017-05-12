@@ -15,9 +15,8 @@ a{
 }
 
 img{
-	height: auto;
+	height: 270px;
 	width: auto;
-	max-height: 60%;
 	display: block;
 	margin: 0px auto;
 
