@@ -3,27 +3,88 @@ html, body{
 	height: 100%;
 	background-color: white;
 	text-align: center;
-	color: rgb(94, 13, 139);
-	font-family: 'Chewy', cursive;
+	color: #5E0D8B;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1.1rem;
 	padding-top: 25px;
+	position: relative;
 }
 
-a{
-	color: rgb(146, 20, 216);
-	text-decoration: underline;
+.navbar.navbar-default.navbar-fixed-top {
+	color: #5E0D8B;
+	background: #fff;
 }
 
-img{
-	height: 270px;
-	width: auto;
-	display: block;
-	margin: 0px auto;
+.navbar-default .navbar-nav > .active{
+   color: #fff;
+   background: #5E0D8B;
+ }
+ 
+ .navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #5E0D8B;
+ }
 
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #8a0e0b;
 }
 
-# {
-	color: white;
+.navbar-default .navbar-nav > li > a {
+    color: #5E0D8B;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #BE9FD1;
+    color: #000;
+}
+
+/* CSS to Override Colors for NavBar Dropdown. No Dropdown
+currently in use. Commented out to save for future use. 
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #8a0e0b;
+    background-color: #d65c14;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #d65c14;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+*/
+
+
+a {
+	color: #5E0D8B;
+}
+
+a:hover {
+	color: #a016ec;
+	text-decoration: none;
+}
+
+.container.section {
+	padding: 30px;
+	padding-top: 50px;
+	margin-top: 50px;
+	max-width: 750px;
+}
+
+.container.shop {
+	padding: 30px;
+	
+}
+
+.container.product {
+	margin-top: 50px;
 }
 
 .outerHero {
@@ -38,5 +99,12 @@ img{
 	background-size: cover;
 	height: 400px;
 	margin: 0 auto;
+	display: inline-block;
+}
+
+
+.igGlyph {
+	height: 30px;
+	width: 30px;
 	display: inline-block;
 }

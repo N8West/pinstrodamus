@@ -14,7 +14,11 @@
     <link href="css/custom.css" rel="stylesheet">
 
     <!-- Google Font Links -->
-    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chewy|Raleway:200" rel="stylesheet">
+
+    <!-- Social Media Glyph -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,10 +28,11 @@
     <![endif]-->
 </head>
   
-<body>
+<body data-spy="scroll" data-target="#nav" data-offset="100">
 
     <!-- NavBar -->
-    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="container" id="nav">
+    <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -37,31 +42,32 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">PINSTRODAMUS LOGO</a>
+      <a class="navbar-brand" href="#outerHero">PINSTRODAMUS</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="#welcome">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#shop">Shop</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
      
       <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Facebook</a></li>
+            <li><a href="https://www.instagram.com/pinstrodamus/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/pinstrodamus/"><i class="fa fa-facebook"></i> Facebook</a></li>
           </ul>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+</div> <!-- /container #nav -->
 
 <!-- ******** HERO ******************************************************************* -->
 
-    <div class="outerHero">
+    <div class="outerHero" id="outerHero">
     <div class="jumbotron">
         <div class="container">
         </div>
@@ -70,26 +76,31 @@
 
 <!-- ******** Welcome/Hello/News **************************************************** -->
 
-    <div class="container" id="welcome">
-        <h1>Website and Shop Coming Soon!!!</h1>
-    <p>Our website, shop, and first pin will all be available within the next couple of weeks!! <br>In the meantime, be sure to check us out and follow us on <a href="https://www.instagram.com/pinstrodamus/">Instagram</a> and <a href="https://www.facebook.com/pinstrodamus/">Facebook!</a></p>
+    <div class="container section" id="welcome">
+        <h1>Website In Progress and First Pin Available Soon!!!</h1>
+    <p>The 'NERSH Gun', Pinstrodamus' first design to be released, is anticipated to be available for purchase in the coming week or two.</p> 
+    <p>Our website is currently being constructed and fine tuned, so please be patient and ignore any issues you may encounter while navigating around the site during this time.<br>In the meantime, be sure to check us out and follow us on <a href="https://www.instagram.com/pinstrodamus/">Instagram</a> and <a href="https://www.facebook.com/pinstrodamus/">Facebook!</a></p>
     <p>Thanks for stopping by!!</p>
     </div>
 
 <!-- ******** About ***************************************************************** -->
 
-    <div class="container" id="about">
-        <h1>About</h1>
-        <p>We are a small enamel pin maker trying to make our place in the world!! <br>We draw great inspiration from live music, nature, traveling and those special experiences that combine all 3! </p>
+    <div class="container section" id="about">
+        <h1>About Us</h1>
+        <p>Just a small enamel pin maker trying to make our place in the world!! <br>We draw great inspiration from live music, nature, traveling and those special experiences that combine all 3! </p>
 
-        <p>Currently we offer enamel hat/lapel pins, with the intention of expanding into other accessories such as patches, stickers and other similar items in the future. </p>
+        <p>Currently we offer enamel hat/lapel pins, however, we are very fond of the idea of expanding into other accessories such as patches, stickers and other similar items in the near future! </p>
     </div>
 
 <!-- ******** Shop ****************************************************************** -->
 
-    <div class="container" id="shop">
-
+    <div class="container shop" id="shop">
+        <div class="container section">
+            <h1>The Shop!</h1>
+        <p>Currently we are anticipating the arrival of our first pins! Once in stock, it will be available for purchase below, as well as on our Facebook page!</p>
+    </div>
 <!-- @@@@@ NERSH Gun Buy Button @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*@*@*@*@*** -->
+<div class="container product">
 <div id='product-component-fe60e0527ba'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
@@ -162,21 +173,22 @@
         ":focus": {
           "background-color": "#a016ec"
         },
-        "font-weight": "bold"
+        "font-weight": "normal"
       },
       "variantTitle": {
         "font-family": "Raleway, sans-serif",
         "font-size": "15px",
-        "color": "#000000",
+        "color": "#5e0d8b",
         "font-weight": "normal"
       },
       "title": {
         "font-family": "Raleway, sans-serif",
         "font-size": "26px",
-        "color": "#000000"
+        "color": "#5e0d8b",
+        "font-weight": "normal"
       },
       "description": {
-        "color": "#000000",
+        "color": "#5e0d8b",
         "font-size": "15px",
         "font-family": "Raleway, sans-serif",
         "font-weight": "normal"
@@ -184,14 +196,14 @@
       "price": {
         "font-family": "Raleway, sans-serif",
         "font-size": "20px",
-        "color": "#000000",
+        "color": "#5e0d8b",
         "font-weight": "normal"
       },
       "compareAt": {
         "font-size": "17px",
         "font-family": "Raleway, sans-serif",
         "font-weight": "normal",
-        "color": "#000000"
+        "color": "#5e0d8b"
       }
     },
     "googleFonts": [
@@ -344,9 +356,24 @@
 })();
 /*]]>*/
 </script>
+</div> <!-- /container for NERSH Gun Buy Button -->
+
+<!-- @@@@@@@ END NERSH Gun Buy Button @@@@@@@@@@@@@@@@@@@@*@*@*@*@@@@@ -->
+
+    </div> <!-- #shop -->
+
+
+<!-- ******** Contact ***************************************************************** -->
+
+    <div class="container section" id="contact">
+        <h1>Getting In Touch!</h1>
+        <p>If you would like to get in touch, you may email us at hello@pinstrodam.us </p>
+
+        <p>Also, be sure to check us out on social media!! </p>
+        <h2 id="fbLink"><a href="https://www.facebook.com/pinstrodamus/"><i class="fa fa-facebook"></i> Facebook</a></h2>
+        <h2 id="igLink"><a href="https://www.instagram.com/pinstrodamus/"><img src="img/ig.png" class="igGlyph"> Instagram</a>
 
     </div>
-
     
     
 
@@ -354,5 +381,29 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+  // <!-- Scroll Animations -->
+      var $root = $('html, body');
+        $('a').click(function() {
+      var href = $.attr(this, 'href');
+        $root.animate({
+        scrollTop: $(href).offset().top
+    }, 900, function () {
+        window.location.hash = href;
+    });
+    return false;
+  // <!-- Scrollspy Script -->
+  $('body').scrollspy({ target: '#navbar-collapse-1' })
+});
+
+  // <!-- Nav collapse on click for mobile -->
+  $(function() {
+    $('.nav a').on('click', function(){ 
+        if($('.navbar-toggle').css('display') !='none'){
+            $(".navbar-toggle").trigger( "click" );
+        }
+    });
+});
+    </script>
   </body>
 </html>
