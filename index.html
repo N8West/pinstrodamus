@@ -25,10 +25,330 @@
 </head>
   
 <body>
-    <img class="logo" src="img/logo.png">
-    <h1>Website and Shop Coming Soon!!!</h1>
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">PINSTRODAMUS LOGO</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+     
+      <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- ******** HERO ******************************************************************* -->
+
+    <div class="outerHero">
+    <div class="jumbotron">
+        <div class="container">
+        </div>
+    </div>
+</div>
+
+<!-- ******** Welcome/Hello/News **************************************************** -->
+
+    <div class="container" id="welcome">
+        <h1>Website and Shop Coming Soon!!!</h1>
     <p>Our website, shop, and first pin will all be available within the next couple of weeks!! <br>In the meantime, be sure to check us out and follow us on <a href="https://www.instagram.com/pinstrodamus/">Instagram</a> and <a href="https://www.facebook.com/pinstrodamus/">Facebook!</a></p>
     <p>Thanks for stopping by!!</p>
+    </div>
+
+<!-- ******** About ***************************************************************** -->
+
+    <div class="container" id="about">
+        <h1>About</h1>
+        <p>We are a small enamel pin maker trying to make our place in the world!! <br>We draw great inspiration from live music, nature, traveling and those special experiences that combine all 3! </p>
+
+        <p>Currently we offer enamel hat/lapel pins, with the intention of expanding into other accessories such as patches, stickers and other similar items in the future. </p>
+    </div>
+
+<!-- ******** Shop ****************************************************************** -->
+
+    <div class="container" id="shop">
+
+<!-- @@@@@ NERSH Gun Buy Button @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*@*@*@*@*** -->
+<div id='product-component-fe60e0527ba'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'pinstrodamus.myshopify.com',
+      apiKey: 'de6089cf25d6cd4cef668e3693890342',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [10649099530],
+        node: document.getElementById('product-component-fe60e0527ba'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "buttonDestination": "checkout",
+    "layout": "horizontal",
+    "variantId": "all",
+    "width": "100%",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "description": true,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "BUY NOW"
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#5e0d8b",
+        "font-family": "Raleway, sans-serif",
+        ":hover": {
+          "background-color": "#a016ec"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#a016ec"
+        },
+        "font-weight": "bold"
+      },
+      "variantTitle": {
+        "font-family": "Raleway, sans-serif",
+        "font-size": "15px",
+        "color": "#000000",
+        "font-weight": "normal"
+      },
+      "title": {
+        "font-family": "Raleway, sans-serif",
+        "font-size": "26px",
+        "color": "#000000"
+      },
+      "description": {
+        "color": "#000000",
+        "font-size": "15px",
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Raleway, sans-serif",
+        "font-size": "20px",
+        "color": "#000000",
+        "font-weight": "normal"
+      },
+      "compareAt": {
+        "font-size": "17px",
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "normal",
+        "color": "#000000"
+      }
+    },
+    "googleFonts": [
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#5e0d8b",
+        "font-family": "Raleway, sans-serif",
+        ":hover": {
+          "background-color": "#a016ec"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#a016ec"
+        },
+        "font-weight": "bold"
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Raleway"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#5e0d8b",
+        "font-family": "Raleway, sans-serif",
+        ":hover": {
+          "background-color": "#a016ec"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#a016ec"
+        },
+        "font-weight": "bold"
+      },
+      "variantTitle": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "normal"
+      },
+      "title": {
+        "font-family": "Raleway, sans-serif"
+      },
+      "description": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "normal"
+      },
+      "compareAt": {
+        "font-family": "Raleway, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway",
+      "Raleway"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Raleway, sans-serif",
+        "background-color": "#5e0d8b",
+        ":hover": {
+          "background-color": "#a016ec"
+        },
+        ":focus": {
+          "background-color": "#a016ec"
+        },
+        "font-weight": "bold"
+      },
+      "count": {
+        "color": "#ffffff",
+        ":hover": {
+          "color": "#ffffff"
+        },
+        "font-size": "16px"
+      },
+      "iconPath": {
+        "fill": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Raleway"
+    ]
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Raleway, sans-serif"
+      },
+      "select": {
+        "font-family": "Raleway, sans-serif"
+      }
+    },
+    "googleFonts": [
+      "Raleway",
+      "Raleway"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+    </div>
+
+    
+    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
